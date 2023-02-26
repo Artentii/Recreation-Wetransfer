@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin<
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>WeTransfer - Send Large Files & Share Photos Online - Up to 2GB Free</title>
+  </head>
+
+  <body>
+    <header class="Header">
+      <h1 class="Header-h1">
+        <img class="Header-img" src="../src/assets/Whitelogo.png" title="Logo" loading="lazy" />
+      </h1>
+      <nav class="Header-nav">
+        <ul class="Header-ul">
+          <li class="Header-li">
+            <a class="Header-a" href="https://wetransfer.com/pricing?trk=NAV_pricing" rel="noreferrer">Tarifas</a>
+          </li>
+          <li class="Header-li">
+            <span class="Span-li">Uso</span>
+            <svg class="Header-svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+            </svg>
+            <ul class="Sub-ul">
+              <li class="Sub-li">
+                <a class="Sub-a" href="https://wetransfer.com/explore/all-features" target="_blank" rel="noreferrer"> Todas las funciones</a>
+              </li>
+              <li class="Sub-li">
+                <a class="Sub-a" href="https://wetransfer.com/explore/file-sharing" target="_blank" rel="noreferrer"> Para compartir archivos</a>
+              </li>
+              <li class="Sub-li">
+                <a class="Sub-a" href="https://wetransfer.com/explore/teams" target="_blank" rel="noreferrer"> Para la colaboración</a>
+              </li>
+              <li class="Sub-li">
+                <a class="Sub-a" href="https://wetransfer.com/explore/security" target="_blank" rel="noreferrer"> Para la seguridad de los datos</a>
+              </li>
+              <li class="Sub-li">
+                <a class="Sub-a" href="https://wetransfer.com/explore/branding" target="_blank" rel="noreferrer"> Para el branding</a>
+              </li>
+              <li class="Sub-li">
+                <a class="Sub-a" href="https://wetransfer.com/explore/portals-reviews" target="_blank" rel="noreferrer"> Para obtener comentarios rápidos</a>
+              </li>
+            </ul>
+          </li>
+          <li class="Header-li">
+            <a class="Header-a" href="https://wetransfer.com/pricing?trk=NAV_pricing" target="_blank" rel="noreferrer">Empresa</a>
+          </li>
+          <li class="Header-li">
+            <a class="Header-a" href="https://wetransfer.com/help" rel="noreferrer">Ayuda</a>
+          </li>
+          <li class="Header-li">
+            <a class="Header-a" href="https://wetransfer.com/pricing" rel="noreferrer">Date de alta</a>
+          </li>
+          <li class="Header-li">
+            <a
+              class="Header-a"
+              href="https://auth.wetransfer.com/login?state=hKFo2SBBb3lDZlZSc0ZwUmhOQ3g4c1A4YzdyNWhNbEZEV1FsQaFupWxvZ2luo3RpZNkgenQ5NnEtTkxnUmpWb284VHplamx1Qk5tSjlrR3lSM2SjY2lk2SBkWFdGUWppVzFqeFdDRkcwaE9WcHFyazRoOXZHZWFuYw&client=dXWFQjiW1jxWCFG0hOVpqrk4h9vGeanc&protocol=oauth2&audience=aud%3A%2F%2Ftransfer-api-prod.wetransfer%2F&redirect_uri=https%3A%2F%2Fwetransfer.com%2Faccount%2Fcallback%3FfinalizeSSOAuth%3D1%26login%3D1&cache=%5Bobject%20Object%5D&initialScreen=login&lang=es&scope=openid%20profile%20email%20offline_access&response_type=code&response_mode=query&nonce=SmlJLmFfZEMxZE1rWEJpQn5GR2ZKUFFWVkstSn5uU0kxaEgxWGRPSTBWSA%3D%3D&code_challenge=pnsFRxO1FDHz4eqVK6q9noQDJbYims6Dmhj_TaPSD5A&code_challenge_method=S256&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMTkuMyJ9"
+              rel="noreferrer"
+              >Iniciar sesión</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <form action="#">
+      <div>
+        <input type="file" name="archivo" id="archivo" enctype="multipost/form-data" />
+        <label for="archivo">
+          <div>
+            <svg id="my-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+              <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
+            </svg>
+          </div>
+
+          <div>
+            <span>Subir archivos</span>
+            <span><br />O selecciona una carpeta</span>
+          </div>
+        </label>
+      </div>
+
+      <div>
+        <input type="email" name="enviaremail" placeholder="Enviar email a" />
+        <input type="email" name="tuemail" placeholder="Tu email" />
+        <input type="text" name="titulo" placeholder="Título" />
+        <textarea name="textarea" placeholder="Mensaje"></textarea>
+      </div>
+
+      <div>
+        <button>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+          </svg>
+        </button>
+        <input type="submit" value="Enviar" />
+      </div>
+    </form>
+
+    <section class="Section">
+      <h1 class="Section-h1">WeTransfer hace más que ... ¿transferir?</h1>
+      <p class="Section-p">Con Pro y Premium, tenemos más de un as en la manga.</p>
+      <button class="Section-button">Mostrarme</button>
+    </section>
+
+    <div class="Bottom Left">
+      <img class="Left-img" src="assets/descargar.svg" alt="Logo WeTransfer" loading="lazy">
+    </div>
+
+    <div class="Bottom Right">
+      <img class="Right-img" src="assets/small.c62ad66487c3d6640f57.png" alt="Image" loading="lazy">
+      <img class="Bottom-img" src="assets/img.8889b9dc9e7b8b2cd9bf.jpg" alt="Image" loading="lazy">
+    </div>
+  </body>
+</html>
